@@ -1,0 +1,28 @@
+
+.team-list-icon {
+    display: flex;
+    justify-content: center;
+}
+.team-list-item-icon:not(:last-child) {
+   margin-right: 10px;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: $white-color;
+    border-radius: 50%;
+    &:hover{
+    background-color: $accent-color;
+    & .social-link-icon{
+    fill: $white-color;
+}
+}
+}
+.social-link-icon  {
+    width: 20px;
+    height: 20px;
+    fill:#afb1b8;
+}

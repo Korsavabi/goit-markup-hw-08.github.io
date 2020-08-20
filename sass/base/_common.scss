@@ -1,0 +1,47 @@
+$main-family: 'Roboto', sans-serif;
+
+*,
+*:after,
+*:before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+/* Иконки */
+.icon{
+    box-sizing: content-box;
+}
+/* Иконки */
+/* заголовки */
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+
+    color: $titles-text-color;
+}
+/* заголовки */
+.transition{
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 250ms;
+}
+body {
+    font-family: $main-family;
+    font-size: 14px;
+    line-height: 1.143;
+
+    color: $text-color;
+    background-color: $white-color;
+}
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .title{
+        font-size: 28px;
+        line-height: 1.179;
+        margin-bottom: 30px;
+    }
+}

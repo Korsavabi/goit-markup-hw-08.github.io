@@ -1,0 +1,25 @@
+/*======================================= Портфолио Кнопка =========================================*/
+
+.filters{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.filters-div{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 56px;
+}
+/*======================================= Портфолио Кнопка =========================================*/
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .filters-div{
+        justify-content: end;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .filters-div{
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 30px;
+    }
+}

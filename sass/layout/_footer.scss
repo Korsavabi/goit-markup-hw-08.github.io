@@ -1,0 +1,183 @@
+/*======================================== Подвал ========================================*/
+.footer__padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.basement-list {
+    display: flex;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.footer__bg-color {
+    background-color:$footer-background-color;
+}
+.footer__logo{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+
+    color: $white-color;
+    span {
+    color: $accent-color;
+}
+}
+.footer-list{
+    margin-top: 20px;
+}
+.footer-list-item:not(:last-child){
+    margin-bottom: 9px;
+}
+.footer-list-item-link{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $light-gray-color;
+    &:hover{
+    color: $accent-color;
+}
+}
+.social-list-item{
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $white-color;
+}
+.social-list-icon {
+    display: flex;
+    margin-top: 20px;
+}
+.social-list-items:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-social-link{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link-icon{
+    fill: $white-color;
+}
+.e-mail-list {
+   display: flex;
+   margin-top: 20px;
+}
+.e-mail__text {
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $white-color;
+}
+.e-mail-list-input {
+    border: 1px solid $light-gray-border-color;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px $btn-box-shadow-light-black-color);
+    border-radius: 4px;
+    background: none;
+
+    width: 360px;
+
+    padding: 15px 16px;
+    margin-right: 10px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: start;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: $light-gray-color;
+    &:focus::placeholder {
+    color: transparent;
+}
+}
+
+.e-mail-list-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    fill: $white-color;
+}
+/*======================================== Подвал ========================================*/
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .basement-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .basement-list-item:not(:last-child){
+        margin-bottom: 60px;
+    }
+    .footer__logo{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 1.167;
+    }
+    .footer-list{
+        text-align: center;
+    }
+    .footer-list-item-link{
+        font-size: 14px;
+    }
+    .social-list-item{
+        text-align: center;
+    }
+    .e-mail__text{
+        text-align: center;
+    }
+    .e-mail-list{
+       flex-wrap: wrap;
+    }
+    .e-mail-list-input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .basement-list {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    .basement-list-item:first-child{
+        margin-bottom: 60px;
+    }
+    .footer__logo{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 1.167;
+    }
+    .footer-list{
+        text-align: center;
+    }
+    .social-list-item{
+        text-align: center;
+    }
+    .e-mail__text{
+        text-align: center;
+    }
+    .e-mail-list{
+       flex-wrap: wrap;
+    }
+    .e-mail-list-input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
