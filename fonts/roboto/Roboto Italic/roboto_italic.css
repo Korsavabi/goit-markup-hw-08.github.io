@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Roboto Italic';
+	src: url('../fonts/roboto_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/roboto_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/roboto_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/roboto_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/roboto_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/roboto_italic.svg#roboto_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
