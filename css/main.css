@@ -103,14 +103,13 @@ body {
 
 @media (min-width: 480px) {
   .container {
-    width: 450px;
+    width: 480px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    width: 720px;
-    padding: 0;
+    width: 768px;
   }
 }
 
@@ -356,7 +355,6 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-position: center, center ,center;
-  margin: 0 auto;
 }
 
 .hero-block {
@@ -385,7 +383,7 @@ body {
     padding-bottom: 118px;
   }
   .hero-title {
-    font-size: 28px;
+    font-size: 26px;
     line-height: 1.615;
     margin-bottom: 20px;
   }
@@ -398,7 +396,7 @@ body {
     background-position: center, center ,center;
   }
   .hero-title {
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 30px;
   }
 }
@@ -552,7 +550,7 @@ body {
 }
 
 /*=========================================== Чем мы занимаемся ===========================================*/
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1024px) {
   .engage__web-none {
     display: none;
   }
@@ -629,16 +627,16 @@ body {
   .team-list-item {
     width: calc((100% - 30px * 1) / 1);
     margin-right: 0;
-    margin-bottom: 30px;
   }
-  .team-list-item:last-child {
-    margin-bottom: 0;
+  .team-list-item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .team-list-item {
-    width: calc((100% - 30px * 1) / 2);
+    width: calc((100% - 30px * 2) / 2);
+    margin-bottom: 30px;
   }
   .team-list-item:not(:nth-child(even)) {
     margin-right: 30px;
@@ -1060,7 +1058,7 @@ body {
 }
 
 /* ========================================================== footer кнопки====================================*/
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1024px) {
   /* ========================================================== footer кнопки ====================================*/
   .e-mail-list-btn {
     margin: 0 auto;
@@ -1242,7 +1240,7 @@ body {
 
 /* ========================================================== form сделать кнопку====================================*/
 /* =================================form================================ */
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) {
   .modal {
     width: 100%;
     top: 93px;
@@ -1257,10 +1255,18 @@ body {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .modal {
+    width: 450px;
+  }
+  .form-checkbox-label {
+    font-size: 12px;
+  }
+}
+
 /* =================================form================================ */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .modal {
-    width: 480px;
     top: 208px;
     margin: 0 auto;
   }

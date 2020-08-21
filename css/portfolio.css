@@ -103,14 +103,13 @@ body {
 
 @media (min-width: 480px) {
   .container {
-    width: 450px;
+    width: 480px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    width: 720px;
-    padding: 0;
+    width: 768px;
   }
 }
 
@@ -434,7 +433,7 @@ body {
 }
 
 /* ========================================================== footer кнопки====================================*/
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1024px) {
   /* ========================================================== footer кнопки ====================================*/
   .e-mail-list-btn {
     margin: 0 auto;
