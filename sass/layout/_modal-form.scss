@@ -15,13 +15,13 @@
     opacity: 0;
 }
 .modal {
-    width: 528px;
+    width: 450px;
     height: auto;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    top: 100px;
+    top: 93px;   
     padding: 30px;
     background-color: $white-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -119,7 +119,7 @@
     font-style: normal;
     font-weight: normal;
     user-select: none;
-    font-size: 14;
+    font-size: 12px;
     letter-spacing: 0.03em;
     display: flex;
     align-items: center;
@@ -149,33 +149,19 @@
 /* ========================================================== form сделать кнопку====================================*/
 
 /* =================================form================================ */
-@media screen and (min-width: 320px){
-    .modal{
-        width: 100%;
-         top: 93px;
-         margin: 0;
-     }
-    .form-checkbox-label{
-        font-size: 8px;
-        line-height: 1.167;
-    }
-    .form-form{
-        width: 100%;
-    }
-}
-@media screen and (min-width: 480px) and (max-width: 768px){
-    .modal{
-        width: 450px;
-    }
-    .form-checkbox-label{
-        font-size: 12px;
-    }
-   
-}
-/* =================================form================================ */
-@media screen and (min-width: 768px) and (max-width: 1200px){
+@media screen and (min-width: 768px){
     .modal{
         top: 208px;
         margin: 0 auto;
     }
+}
+@media screen and (min-width: 1200px){
+    .modal{
+        width: 528px;
+        top: 100px;
+    }
+    .form-checkbox-label{
+        font-size: 14px;
+    }
+   
 }
