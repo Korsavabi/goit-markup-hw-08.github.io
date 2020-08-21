@@ -1,5 +1,5 @@
 $main-family: 'Roboto', sans-serif;
-
+/* desktop */
 *,
 *:after,
 *:before{
@@ -14,14 +14,14 @@ $main-family: 'Roboto', sans-serif;
 }
 /* Иконки */
 /* заголовки */
-.title {
+.title{
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 1.167;
+    font-size: 26px;
+    line-height: 1.179;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     color: $titles-text-color;
 }
@@ -34,14 +34,19 @@ body {
     font-family: $main-family;
     font-size: 14px;
     line-height: 1.143;
-
     color: $text-color;
     background-color: $white-color;
 }
-@media screen and (min-width: 480px) and (max-width: 768px){
-    .title{
+/* desktop */
+@media screen and (min-width: 768px){
+    .title {
         font-size: 28px;
-        line-height: 1.179;
-        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 1200px) {
+   .title {
+        font-size: 36px;
+        line-height: 1.167;
+        margin-bottom: 50px;
     }
 }

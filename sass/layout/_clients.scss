@@ -1,22 +1,21 @@
 /*======================================== Постоянные клиенты ========================================*/
 .clients{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .client-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .client-list-item{
     display: flex;
-    width: calc((100% - 30px *5)/6);
-    margin-right: 30px;
-    &:last-child{
+    width: calc((100% - 30px * 1) / 2);
+    margin-bottom: 30px;
     margin-right: 0;
 }
-}
 .client-item-list-link{
-    width: 170px;
+    width: 210px;
     height: 90px;
     justify-content: center;
     align-items:center;
@@ -49,30 +48,11 @@
     height: 45px;
 }
 /*======================================== Постоянные клиенты ========================================*/
-@media screen and (min-width: 320px) and (max-width: 767px){
-    .clients{
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    .client-list{
-        justify-content: space-evenly;
-    }
-    .client-list-item{
-        width: calc((100% - 30px * 1) / 2);
-        margin-bottom: 30px;
-        &:not(:nth-child(odd)){
-            margin-right: 0;
-        }
-    }
-    .client-item-list-link{
-        width: 210px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1200px){
+
+@media screen and (min-width: 768px){
     .client-list-item{
         width: calc((100% - 30px * 2) / 3);
         margin-right: 30px;
-        margin-bottom: 30px;
         &:nth-child(3){
             margin-right: 0;
         }
@@ -83,4 +63,25 @@
     .client-item-list-link{
         width: 226px;
     }
+}
+@media screen and (min-width: 1200px){
+    .clients{
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .client-list-item{
+        width: calc((100% - 30px *5)/6);
+        margin-right: 30px;
+        margin-bottom: 0;
+        &:nth-child(3){
+            margin-right: 30px;
+        }
+        &:last-child{
+        margin-right: 0;
+    } 
+    }
+    .client-item-list-link{
+        width: 170px;
+    }
+    
 }

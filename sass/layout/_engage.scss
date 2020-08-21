@@ -1,43 +1,45 @@
 /*=========================================== Чем мы занимаемся ===========================================*/
 .engage__web-none{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    display: none;
 }
-.engage-list {
-    display: flex;
-}
-.engage-list-item{
-    position: relative;
-    width: calc((100% - 30px * 2)/3);
-    margin-right: 30px;
-    &:last-child{
-    margin-right: 0;
-}
-& img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-}
-.engage-list-item-text {
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-
-    width: 100%;
-    padding: 27px 0;
-
-    color: $white-color;
-    background-color: $text-background;
-}
 /*=========================================== Чем мы занимаемся ===========================================*/
-@media screen and (min-width: 320px) and (max-width: 1024px){
+@media screen and (min-width: 1200px){
     .engage__web-none{
-        display: none;
+        display: block;
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .engage-list {
+        display: flex;
+    }
+    .engage-list-item{
+        position: relative;
+        width: calc((100% - 30px * 2)/3);
+        margin-right: 30px;
+        &:last-child{
+        margin-right: 0;
+    }
+    &img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    }
+    .engage-list-item-text {
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        position: absolute;
+        text-align: center;
+        bottom: 3px;
+    
+        width: 100%;
+        padding: 27px 0;
+    
+        color: $white-color;
+        background-color: $text-background;
     }
 }
