@@ -236,7 +236,7 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .header__logo {
     font-size: 24px;
     line-height: 1.166;
@@ -315,9 +315,15 @@ body {
     width: 24px;
     height: 16px;
   }
+  .openMenu-svg:hover {
+    fill: #1093ff;
+  }
   .openMenu-svg-close {
     width: 19px;
     height: 19px;
+  }
+  .openMenu-svg-close:hover {
+    fill: #1093ff;
   }
 }
 
@@ -370,7 +376,7 @@ body {
   color: #ffffff;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .hero__img {
     max-width: 500px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/header-img/header-mobile.jpg);
@@ -475,7 +481,7 @@ body {
 }
 
 /*=========================================== Особенности =========================================*/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .feature {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -497,7 +503,7 @@ body {
     margin-right: 0;
     width: calc((100% - 30px *1)/2);
   }
-  .feature-list-item:nth-child(n+3) {
+  .feature-list-item:nth-last-child(-n + 2) {
     margin-bottom: 0;
   }
   .feature-list-item-title {
@@ -546,7 +552,7 @@ body {
 }
 
 /*=========================================== Чем мы занимаемся ===========================================*/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .engage__web-none {
     display: none;
   }
@@ -612,7 +618,7 @@ body {
 }
 
 /*============================================= Наша команда ===========================================*/
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .command__box {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -633,13 +639,11 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .team-list-item {
     width: calc((100% - 30px * 1) / 2);
-    margin-right: 0;
-    margin-bottom: 30px;
   }
   .team-list-item:not(:nth-child(even)) {
     margin-right: 30px;
   }
-  .team-list-item:nth-child(n + 3) {
+  .team-list-item:nth-last-child(-n + 2) {
     margin-bottom: 0;
   }
 }
@@ -739,7 +743,7 @@ body {
 }
 
 /*======================================== Постоянные клиенты ========================================*/
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .clients {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -899,7 +903,7 @@ body {
 }
 
 /*======================================== Подвал ========================================*/
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .basement-list {
     flex-direction: column;
     justify-content: center;
@@ -1056,7 +1060,7 @@ body {
 }
 
 /* ========================================================== footer кнопки====================================*/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   /* ========================================================== footer кнопки ====================================*/
   .e-mail-list-btn {
     margin: 0 auto;
@@ -1205,6 +1209,7 @@ body {
   font-style: normal;
   font-weight: normal;
   user-select: none;
+  font-size: 14;
   letter-spacing: 0.03em;
   display: flex;
   align-items: center;
@@ -1237,21 +1242,25 @@ body {
 
 /* ========================================================== form сделать кнопку====================================*/
 /* =================================form================================ */
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .modal {
-    width: 450px;
+    width: 100%;
     top: 93px;
     margin: 0;
   }
   .form-checkbox-label {
-    font-size: 12px;
+    font-size: 8px;
     line-height: 1.167;
+  }
+  .form-form {
+    width: 100%;
   }
 }
 
 /* =================================form================================ */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .modal {
+    width: 480px;
     top: 208px;
     margin: 0 auto;
   }

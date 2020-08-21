@@ -112,7 +112,7 @@
     fill: $white-color;
 }
 /*======================================== Подвал ========================================*/
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (min-width: 320px) and (max-width: 767px){
     .basement-list {
         flex-direction: column;
         justify-content: center;

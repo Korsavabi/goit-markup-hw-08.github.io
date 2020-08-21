@@ -67,7 +67,7 @@
     letter-spacing: 0.03em;
 }
 /*=========================================== Особенности =========================================*/
-@media screen and (min-width: 480px) and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 768px){
     .feature{
         padding-top: 60px;
         padding-bottom: 60px;
@@ -87,7 +87,7 @@
     .feature-list-item {
         margin-right: 0;
         width: calc((100% - 30px *1)/2);
-       &:nth-child(n+3){
+       &:nth-last-child(-n + 2){
            margin-bottom: 0;
        }
     }

@@ -52,7 +52,7 @@
     margin-bottom: 16px;
 }
 /*============================================= Наша команда ===========================================*/
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (min-width: 320px) and (max-width: 768px){
     .command__box{
         padding-top: 60px;
         padding-bottom: 60px;
@@ -72,12 +72,10 @@
 @media screen and (min-width: 768px) and (max-width: 1200px){
     .team-list-item{
         width: calc((100% - 30px * 1) / 2);
-        margin-right: 0;
-        margin-bottom: 30px;
         &:not(:nth-child(even)){
             margin-right: 30px;
         }
-        &:nth-child(n + 3){
+        &:nth-last-child(-n + 2){
             margin-bottom: 0;
         }
     }

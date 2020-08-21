@@ -236,7 +236,7 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .header__logo {
     font-size: 24px;
     line-height: 1.166;
@@ -315,9 +315,15 @@ body {
     width: 24px;
     height: 16px;
   }
+  .openMenu-svg:hover {
+    fill: #1093ff;
+  }
   .openMenu-svg-close {
     width: 19px;
     height: 19px;
+  }
+  .openMenu-svg-close:hover {
+    fill: #1093ff;
   }
 }
 
@@ -428,7 +434,7 @@ body {
 }
 
 /* ========================================================== footer кнопки====================================*/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   /* ========================================================== footer кнопки ====================================*/
   .e-mail-list-btn {
     margin: 0 auto;
@@ -469,7 +475,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-@media screen and (min-width: 480px) and (max-width: 761px) {
+@media screen and (min-width: 320px) and (max-width: 761px) {
   .filters-btn:not(:nth-child(n+4)) {
     margin-bottom: 21px;
   }
@@ -488,7 +494,7 @@ body {
 }
 
 /*======================================= Портфолио Кнопка =========================================*/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .filters-div {
     justify-content: end;
     flex-wrap: wrap;
@@ -597,7 +603,7 @@ body {
 }
 
 /*======================================= Портфолио Галерея =========================================*/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .portfolio-list-item {
     width: calc((100% - 30px * 1)/1);
   }
@@ -619,7 +625,7 @@ body {
   .portfolio-list-item:nth-child(even) {
     margin-right: 0;
   }
-  .portfolio-list-item:nth-child(n+8) {
+  .portfolio-list-item:nth-last-child(-n+2) {
     margin-bottom: 0;
   }
 }
@@ -780,7 +786,7 @@ body {
 }
 
 /*======================================== Подвал ========================================*/
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .basement-list {
     flex-direction: column;
     justify-content: center;
