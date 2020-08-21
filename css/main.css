@@ -355,6 +355,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-position: center, center ,center;
+  margin: 0 auto;
 }
 
 .hero-block {
@@ -394,6 +395,7 @@ body {
     max-width: 1000px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/header-img/header-laptop.jpg);
     background-position: center, center ,center;
+    background-size: auto;
   }
   .hero-title {
     font-size: 28px;
