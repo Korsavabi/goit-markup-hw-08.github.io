@@ -580,6 +580,7 @@ body {
   line-height: 1.556;
   letter-spacing: 0.03em;
   color: #ffffff;
+  padding-top: 30px;
 }
 
 .project__block-text {
