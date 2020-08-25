@@ -41,18 +41,18 @@
 }
 .navbars{
     display: block;
-    position: relative;
     text-align: center;
     
 }
 .navigation-media {
     display: none;
     position: absolute;
-    top: 50px;
-    right: -16px;
+    top: 80px;
+    right: 0;
+    left: 0;
     z-index: 6;
     background-color: $white-color;
-    width: 400px;
+    width: 100%;
     align-items: center;
     justify-content: center;
    

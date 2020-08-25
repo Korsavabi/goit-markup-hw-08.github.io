@@ -1,6 +1,5 @@
 /* mobile*/
 .hero__img{
-    max-width: 480px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../img/header-img/mobile/header-mobile.jpg);
     padding-top: 118px;
@@ -36,8 +35,7 @@
 
 @media screen and (min-width: 768px){
     .hero__img{
-        max-width: 768px;
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 04)),
         url(../img/header-img/laptop/header-laptop.jpg);
     }
     @media screen and (min-device-pixrl-ration: 2), screen and (min-resolution: 192dpi),  screen and (min-resolution: 2dppx){
