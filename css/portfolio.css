@@ -576,7 +576,7 @@ body {
 }
 
 .project__text-hover {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.556;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -610,6 +610,12 @@ body {
 }
 
 /*======================================= mobill =========================================*/
+@media screen and (min-width: 480px) {
+  .project__text-hover {
+    font-size: 18px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .portfolio-list-item {
     width: calc((100% - 30px * 1)/2);
