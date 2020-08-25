@@ -541,7 +541,7 @@ body {
   left: 0;
   background: rgba(32, 148, 243, 0.902);
   transform: translateY(100%);
-  padding: 64px 24px 84px 24px;
+  padding: 24px 24px 24px 24px;
 }
 
 .portfolio-list-item {
