@@ -1,10 +1,19 @@
 @charset "UTF-8";
+/* Roboto Black */
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/relewey/Roboto Black/fonts/roboto_black.woff2") format("woff2"), url("../fonts/relewey/Roboto Black/roboto_black.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 900;
+  font-display: swap;
+}
+
 /* Raleway-Bold */
 @font-face {
   font-family: 'Raleway';
   src: url("../fonts/relewey/Raleway-Bold/fonts/raleway_bold.woff2") format("woff2"), url("../fonts/relewey/Raleway-Bold/fonts/raleway_bold.woff") format("woff");
   /* Firefox >= 3.6, any other modern browser */
-  font-weight: 900;
+  font-weight: 700;
   font-display: swap;
 }
 
@@ -804,9 +813,6 @@ body {
   }
   .client-list-item:nth-child(3) {
     margin-right: 30px;
-  }
-  .client-list-item:last-child {
-    margin-right: 0;
   }
   .client-item-list-link {
     width: 170px;

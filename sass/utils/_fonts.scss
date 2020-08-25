@@ -1,10 +1,19 @@
+/* Roboto Black */
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/relewey/Roboto Black/fonts/roboto_black.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/relewey/Roboto Black/roboto_black.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
+		font-weight: 900;
+		font-display: swap;
+		
+}
 /* Raleway-Bold */
 @font-face {
 	font-family: 'Raleway';
 	src: 
 		url('../fonts/relewey/Raleway-Bold/fonts/raleway_bold.woff2') format('woff2'), /* Super Modern Browsers */
 		url('../fonts/relewey/Raleway-Bold/fonts/raleway_bold.woff') format('woff'); /* Firefox >= 3.6, any other modern browser */
-		font-weight: 900;
+		font-weight: 700;
 		font-display: swap;
 }
 /* Roboto Light */
