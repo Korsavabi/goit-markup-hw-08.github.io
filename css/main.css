@@ -918,6 +918,7 @@ body {
 
 .e-mail-list {
   flex-wrap: wrap;
+  width: 450px;
 }
 
 .e-mail-list-input {
@@ -967,9 +968,6 @@ body {
     justify-content: center;
     font-size: 24px;
     line-height: 1.167;
-  }
-  .e-mail-list-input {
-    width: 450px;
   }
 }
 

@@ -93,6 +93,7 @@ color: $accent-color;
 }
 .e-mail-list{
    flex-wrap: wrap;
+   width: 450px;
 }
 .e-mail-list-input{
     border: 1px solid $light-gray-border-color;
@@ -144,7 +145,7 @@ color: $accent-color;
     line-height: 1.167;
     }
     .e-mail-list-input{
-        width: 450px;
+       
     }
    
 }
