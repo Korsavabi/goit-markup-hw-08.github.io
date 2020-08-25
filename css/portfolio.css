@@ -545,7 +545,7 @@ body {
 }
 
 .portfolio-list-item {
-  width: calc((100% - 30px * 1)/1);
+  width: 100%;
   background: #ffffff;
   position: relative;
   margin-bottom: 30px;
