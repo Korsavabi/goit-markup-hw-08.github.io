@@ -976,9 +976,6 @@ body {
   .basement-list:first-child {
     margin-bottom: 60px;
   }
-  .basement-list-item:not(:last-child) {
-    margin-bottom: 0;
-  }
   .footer__logo {
     display: flex;
     align-items: center;
