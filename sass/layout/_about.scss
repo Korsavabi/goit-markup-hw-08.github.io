@@ -54,6 +54,7 @@
     font-weight: bold;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-size: 14px;
     margin-top: 30px;
     margin-bottom: 10px;
 
@@ -96,5 +97,9 @@
         margin-right: 0;
         }
      
+    }
+    .feature-list-item-title{
+
+        font-size: 14px;
     }
 }

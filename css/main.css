@@ -506,6 +506,7 @@ body {
   font-weight: bold;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-size: 14px;
   margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
@@ -547,6 +548,9 @@ body {
   }
   .feature-list-item:last-child {
     margin-right: 0;
+  }
+  .feature-list-item-title {
+    font-size: 14px;
   }
 }
 
