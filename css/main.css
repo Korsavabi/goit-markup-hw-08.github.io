@@ -144,7 +144,7 @@ body {
 }
 
 .header__logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
