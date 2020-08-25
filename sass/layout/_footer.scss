@@ -138,8 +138,8 @@ color: $accent-color;
         justify-content: space-around;
         align-items: baseline;
     }
-    .basement-list-item:first-child{
-        margin-bottom: 60px;
+    .basement-list-item:not(:last-child){
+        margin-bottom: 0;
     }
     .footer__logo{
         display: flex;
@@ -156,7 +156,7 @@ color: $accent-color;
         justify-content: space-between;
         align-items: baseline;
     }
-    .basement-list-item{
+    .basement-list-item:first-child{
         margin-bottom: 0;
     }
     .footer__logo{
