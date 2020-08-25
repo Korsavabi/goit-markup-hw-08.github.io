@@ -576,7 +576,7 @@ body {
   }
   .engage-list-item img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
   .engage-list-item-text {
