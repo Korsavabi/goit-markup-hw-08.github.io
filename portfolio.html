@@ -39,7 +39,7 @@
                 </a>
             </address>
             <div class="navbars">
-                <button class="btn-openMenu" id="openMenu" type="menu">
+                <button class="btn-open-menu" id="openMenu" type="button">
                     <svg class="openMenu-svg">
                         <use href="./img/burger/sprite.svg#icon-menu"></use>
                     </svg>
@@ -88,13 +88,15 @@
                 <a href="#">
                     <div class="project-block">
                       <picture>
-                        <source srcset="./img/portfolio/desktop/one/img-desktop-370.webp 1x, ./img/portfolio/desktop/one/img-desktop@x2-740.webp 2x", type="image/webp" media="(min-width: 1200px)">
-                        <source srcset="./img/portfolio/laptop/one/img-laptop-354.webp 1x, ./img/portfolio/laptop/one/img-laptop@x2-708.webp 2x", type="image/webp" media="(min-width: 768px)">
-                        <source srcset="./img/portfolio/mobile/one/img-mobile-450.webp 1x, ./img/portfolio/mobile/one/img-mobile@x2-900.webp 2x", type="image/webp" media="(min-width: 480px)">
+                        <source srcset="./img/portfolio/desktop/one/img-desktop-370.webp 1x, ./img/portfolio/desktop/one/img-desktop@x2-740.webp 2x" type="image/webp" media="(min-width: 1200px)">
+                        <source srcset="./img/portfolio/laptop/one/img-laptop-354.webp 1x, ./img/portfolio/laptop/one/img-laptop@x2-708.webp 2x" type="image/webp" media="(min-width: 768px)">
+                        <source srcset="./img/portfolio/mobile/one/img-mobile-450.webp 1x, ./img/portfolio/mobile/one/img-mobile@x2-900.webp 2x" type="image/webp" media="(min-width: 480px)">
                        
-                            <img src="./img/portfolio/mobile/one/img-mobile-1.jpg 1x, ./img/portfolio/mobile/one/img-mobile@x2-1.jpg 2x,
-                        ./img/portfolio/laptop/one/img-laptop-1.jpg 1x, ./img/portfolio/laptop/one/img-laptop@x2-1.jpg 2x,
-                        ./img/portfolio/desktop/one/img-desktop-1.jpg 1x, ./img/portfolio/desktop/one/img-desktop@x2-1.jpg 2x" media="(min-width: 480px), (min-width: 768px), (min-width: 1200px)" alt="" width="450" height="294">
+                        <img  srcset="./img/portfolio/mobile/one/img-mobile-1.jpg 450w, ./img/portfolio/mobile/one/img-mobile@x2-1.jpg 900w, 
+                        ./img/portfolio/laptop/one/img-laptop-1.jpg 354w, ./img/portfolio/laptop/one/img-laptop@x2-1.jpg 708w,
+                        ./img/portfolio/desktop/one/img-desktop-1.jpg 370w, ./img/portfolio/desktop/one/img-desktop@x2-1.jpg 740w" 
+                        src="./img/portfolio/mobile/one/img-mobile-1.jpg"  
+                        sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" alt="" width="450" height="294">
                       </picture>
                         <div class="project-hover transition">
                             <p class="project__text-hover">
@@ -117,13 +119,15 @@
                 <a href="#">
                     <div class="project-block">
                         <picture>
-                            <source srcset="./img/portfolio/desktop/two/img-desktop-370.webp 1x, ./img/portfolio/desktop/two/img-desktop@x2-740.webp 2x", type="image/webp" media="(min-width: 1200px)">
-                            <source srcset="./img/portfolio/laptop/two/img-laptop-354.webp 1x, ./img/portfolio/laptop/two/img-laptop@x2-708.webp 2x", type="image/webp" media="(min-width: 768px)">
-                            <source srcset="./img/portfolio/mobile/two/img-mobile-450.webp 1x, ./img/portfolio/mobile/two/img-mobile@x2-900.webp 2x", type="image/webp" media="(min-width: 480px)">
+                            <source srcset="./img/portfolio/desktop/two/img-desktop-370.webp 1x, ./img/portfolio/desktop/two/img-desktop@x2-740.webp 2x" type="image/webp" media="(min-width: 1200px)">
+                            <source srcset="./img/portfolio/laptop/two/img-laptop-354.webp 1x, ./img/portfolio/laptop/two/img-laptop@x2-708.webp 2x" type="image/webp" media="(min-width: 768px)">
+                            <source srcset="./img/portfolio/mobile/two/img-mobile-450.webp 1x, ./img/portfolio/mobile/two/img-mobile@x2-900.webp 2x" type="image/webp" media="(min-width: 480px)">
                            
-                                <img src="./img/portfolio/mobile/two/img-mobile-1.jpg 1x, ./img/portfolio/mobile/two/img-mobile@x2-1.jpg 2x,
-                            ./img/portfolio/laptop/two/img-laptop-1.jpg 1x, ./img/portfolio/laptop/two/img-laptop@x2-1.jpg 2x,
-                            ./img/portfolio/desktop/two/img-desktop-1.jpg 1x, ./img/portfolio/desktop/two/img-desktop@x2-1.jpg 2x" media="(min-width: 480px), (min-width: 768px), (min-width: 1200px)" alt="" width="450" height="294">
+                                <img srcset="./img/portfolio/mobile/two/img-mobile-1.jpg 450w, ./img/portfolio/mobile/two/img-mobile@x2-1.jpg 900w,
+                            ./img/portfolio/laptop/two/img-laptop-1.jpg 354w, ./img/portfolio/laptop/two/img-laptop@x2-1.jpg 708w,
+                            ./img/portfolio/desktop/two/img-desktop-1.jpg 370w, ./img/portfolio/desktop/two/img-desktop@x2-1.jpg 740w" 
+                            src="./img/portfolio/mobile/two/img-mobile-1.jpg"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" alt="" width="450" height="294">
                           </picture>
                         <div class="project-hover transition">
                             <p class="project__text-hover">
@@ -146,13 +150,15 @@
                 <a href="#">
                     <div class="project-block">
                         <picture>
-                            <source srcset="./img/portfolio/desktop/three/img-desktop-370.webp 1x, ./img/portfolio/desktop/three/img-desktop@x2-740.webp 2x", type="image/webp" media="(min-width: 1200px)">
-                            <source srcset="./img/portfolio/laptop/three/img-laptop-354.webp 1x, ./img/portfolio/laptop/three/img-laptop@x2-708.webp 2x", type="image/webp" media="(min-width: 768px)">
-                            <source srcset="./img/portfolio/mobile/three/img-mobile-450.webp 1x, ./img/portfolio/mobile/three/img-mobile@x2-900.webp 2x", type="image/webp" media="(min-width: 480px)">
+                            <source srcset="./img/portfolio/desktop/three/img-desktop-370.webp 1x, ./img/portfolio/desktop/three/img-desktop@x2-740.webp 2x" type="image/webp" media="(min-width: 1200px)">
+                            <source srcset="./img/portfolio/laptop/three/img-laptop-354.webp 1x, ./img/portfolio/laptop/three/img-laptop@x2-708.webp 2x" type="image/webp" media="(min-width: 768px)">
+                            <source srcset="./img/portfolio/mobile/three/img-mobile-450.webp 1x, ./img/portfolio/mobile/three/img-mobile@x2-900.webp 2x" type="image/webp" media="(min-width: 480px)">
                            
-                                <img src="./img/portfolio/mobile/three/img-mobile-1.jpg 1x, ./img/portfolio/mobile/three/img-mobile@x2-1.jpg 2x,
-                            ./img/portfolio/laptop/three/img-laptop-1.jpg 1x, ./img/portfolio/laptop/three/img-laptop@x2-1.jpg 2x,
-                            ./img/portfolio/desktop/three/img-desktop-1.jpg 1x, ./img/portfolio/desktop/three/img-desktop@x2-1.jpg 2x" media="(min-width: 480px), (min-width: 768px), (min-width: 1200px)" alt="" width="450" height="294">
+                                <img  srcset="./img/portfolio/mobile/three/img-mobile-1.jpg 450w, ./img/portfolio/mobile/three/img-mobile@x2-1.jpg 900w,
+                            ./img/portfolio/laptop/three/img-laptop-1.jpg 354w, ./img/portfolio/laptop/three/img-laptop@x2-1.jpg 708w,
+                            ./img/portfolio/desktop/three/img-desktop-1.jpg 370w, ./img/portfolio/desktop/three/img-desktop@x2-1.jpg 740w" 
+                            src="./img/portfolio/mobile/three/img-mobile-1.jpg"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" alt="" width="450" height="294">
                           </picture>
                         <div class="project-hover transition">
                             <p class="project__text-hover">
@@ -175,13 +181,15 @@
                 <a href="#">
                     <div class="project-block">
                         <picture>
-                            <source srcset="./img/portfolio/desktop/four/img-desktop-370.webp 1x, ./img/portfolio/desktop/four/img-desktop@x2-740.webp 2x", type="image/webp" media="(min-width: 1200px)">
-                            <source srcset="./img/portfolio/laptop/four/img-laptop-354.webp 1x, ./img/portfolio/laptop/four/img-laptop@x2-708.webp 2x", type="image/webp" media="(min-width: 768px)">
-                            <source srcset="./img/portfolio/mobile/four/img-mobile-450.webp 1x, ./img/portfolio/mobile/four/img-mobile@x2-900.webp 2x", type="image/webp" media="(min-width: 480px)">
+                            <source srcset="./img/portfolio/desktop/four/img-desktop-370.webp 1x, ./img/portfolio/desktop/four/img-desktop@x2-740.webp 2x" type="image/webp" media="(min-width: 1200px)">
+                            <source srcset="./img/portfolio/laptop/four/img-laptop-354.webp 1x, ./img/portfolio/laptop/four/img-laptop@x2-708.webp 2x" type="image/webp" media="(min-width: 768px)">
+                            <source srcset="./img/portfolio/mobile/four/img-mobile-450.webp 1x, ./img/portfolio/mobile/four/img-mobile@x2-900.webp 2x" type="image/webp" media="(min-width: 480px)">
                            
-                                <img src="./img/portfolio/mobile/four/img-mobile-1.jpg 1x, ./img/portfolio/mobile/four/img-mobile@x2-1.jpg 2x,
-                            ./img/portfolio/laptop/four/img-laptop-1.jpg 1x, ./img/portfolio/laptop/four/img-laptop@x2-1.jpg 2x,
-                            ./img/portfolio/desktop/four/img-desktop-1.jpg 1x, ./img/portfolio/desktop/four/img-desktop@x2-1.jpg 2x" media="(min-width: 480px), (min-width: 768px), (min-width: 1200px)" alt="" width="450" height="294">
+                                <img srcset="./img/portfolio/mobile/four/img-mobile-1.jpg 450w, ./img/portfolio/mobile/four/img-mobile@x2-1.jpg 900w,
+                            ./img/portfolio/laptop/four/img-laptop-1.jpg 354w, ./img/portfolio/laptop/four/img-laptop@x2-1.jpg 708w,
+                            ./img/portfolio/desktop/four/img-desktop-1.jpg 370w, ./img/portfolio/desktop/four/img-desktop@x2-1.jpg 740w" 
+                            src="./img/portfolio/mobile/four/img-mobile-1.jpg"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" alt="" width="450" height="294">
                           </picture>
                         <div class="project-hover transition">
                             <p class="project__text-hover">
@@ -204,13 +212,15 @@
                 <a href="#">
                     <div class="project-block">
                         <picture>
-                            <source srcset="./img/portfolio/desktop/five/img-desktop-370.webp 1x, ./img/portfolio/desktop/five/img-desktop@x2-740.webp 2x", type="image/webp" media="(min-width: 1200px)">
-                            <source srcset="./img/portfolio/laptop/five/img-laptop-354.webp 1x, ./img/portfolio/laptop/five/img-laptop@x2-708.webp 2x", type="image/webp" media="(min-width: 768px)">
-                            <source srcset="./img/portfolio/mobile/five/img-mobile-450.webp 1x, ./img/portfolio/mobile/five/img-mobile@x2-900.webp 2x", type="image/webp" media="(min-width: 480px)">
+                            <source srcset="./img/portfolio/desktop/five/img-desktop-370.webp 1x, ./img/portfolio/desktop/five/img-desktop@x2-740.webp 2x" type="image/webp" media="(min-width: 1200px)">
+                            <source srcset="./img/portfolio/laptop/five/img-laptop-354.webp 1x, ./img/portfolio/laptop/five/img-laptop@x2-708.webp 2x" type="image/webp" media="(min-width: 768px)">
+                            <source srcset="./img/portfolio/mobile/five/img-mobile-450.webp 1x, ./img/portfolio/mobile/five/img-mobile@x2-900.webp 2x" type="image/webp" media="(min-width: 480px)">
                            
-                                <img src="./img/portfolio/mobile/five/img-mobile-1.jpg 1x, ./img/portfolio/mobile/five/img-mobile@x2-1.jpg 2x,
-                            ./img/portfolio/laptop/five/img-laptop-1.jpg 1x, ./img/portfolio/laptop/five/img-laptop@x2-1.jpg 2x,
-                            ./img/portfolio/desktop/five/img-desktop-1.jpg 1x, ./img/portfolio/desktop/five/img-desktop@x2-1.jpg 2x" media="(min-width: 480px), (min-width: 768px), (min-width: 1200px)" alt="" width="450" height="294">
+                                <img srcset="./img/portfolio/mobile/five/img-mobile-1.jpg 450w, ./img/portfolio/mobile/five/img-mobile@x2-1.jpg 900w,
+                            ./img/portfolio/laptop/five/img-laptop-1.jpg 354w, ./img/portfolio/laptop/five/img-laptop@x2-1.jpg 708w,
+                            ./img/portfolio/desktop/five/img-desktop-1.jpg 370w, ./img/portfolio/desktop/five/img-desktop@x2-1.jpg 740w"
+                            src="./img/portfolio/mobile/five/img-mobile-1.jpg" 
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" alt="" width="450" height="294">
                           </picture>
                         <div class="project-hover transition">
                             <p class="project__text-hover">
@@ -233,13 +243,15 @@
                 <a href="#">
                     <div class="project-block">
                         <picture>
-                            <source srcset="./img/portfolio/desktop/six/img-desktop-370.webp 1x, ./img/portfolio/desktop/six/img-desktop@x2-740.webp 2x", type="image/webp" media="(min-width: 1200px)">
-                            <source srcset="./img/portfolio/laptop/six/img-laptop-354.webp 1x, ./img/portfolio/laptop/six/img-laptop@x2-708.webp 2x", type="image/webp" media="(min-width: 768px)">
-                            <source srcset="./img/portfolio/mobile/six/img-mobile-450.webp 1x, ./img/portfolio/mobile/six/img-mobile@x2-900.webp 2x", type="image/webp" media="(min-width: 480px)">
+                            <source srcset="./img/portfolio/desktop/six/img-desktop-370.webp 1x, ./img/portfolio/desktop/six/img-desktop@x2-740.webp 2x" type="image/webp" media="(min-width: 1200px)">
+                            <source srcset="./img/portfolio/laptop/six/img-laptop-354.webp 1x, ./img/portfolio/laptop/six/img-laptop@x2-708.webp 2x" type="image/webp" media="(min-width: 768px)">
+                            <source srcset="./img/portfolio/mobile/six/img-mobile-450.webp 1x, ./img/portfolio/mobile/six/img-mobile@x2-900.webp 2x" type="image/webp" media="(min-width: 480px)">
                            
-                                <img src="./img/portfolio/mobile/six/img-mobile-1.jpg 1x, ./img/portfolio/mobile/six/img-mobile@x2-1.jpg 2x,
-                            ./img/portfolio/laptop/six/img-laptop-1.jpg 1x, ./img/portfolio/laptop/six/img-laptop@x2-1.jpg 2x,
-                            ./img/portfolio/desktop/six/img-desktop-1.jpg 1x, ./img/portfolio/desktop/six/img-desktop@x2-1.jpg 2x" media="(min-width: 480px), (min-width: 768px), (min-width: 1200px)" alt="" width="450" height="294">
+                                <img srcset="./img/portfolio/mobile/six/img-mobile-1.jpg 450w, ./img/portfolio/mobile/six/img-mobile@x2-1.jpg 900w,
+                            ./img/portfolio/laptop/six/img-laptop-1.jpg 354w, ./img/portfolio/laptop/six/img-laptop@x2-1.jpg 708w,
+                            ./img/portfolio/desktop/six/img-desktop-1.jpg 370w, ./img/portfolio/desktop/six/img-desktop@x2-1.jpg 740w" 
+                            src="./img/portfolio/mobile/six/img-mobile-1.jpg"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" alt="" width="450" height="294">
                           </picture>
                         <div class="project-hover transition">
                             <p class="project__text-hover">
@@ -262,13 +274,15 @@
                 <a href="#">
                     <div class="project-block">
                         <picture>
-                            <source srcset="./img/portfolio/desktop/seven/img-desktop-370.webp 1x, ./img/portfolio/desktop/seven/img-desktop@x2-740.webp 2x", type="image/webp" media="(min-width: 1200px)">
-                            <source srcset="./img/portfolio/laptop/seven/img-laptop-354.webp 1x, ./img/portfolio/laptop/seven/img-laptop@x2-708.webp 2x", type="image/webp" media="(min-width: 768px)">
-                            <source srcset="./img/portfolio/mobile/seven/img-mobile-450.webp 1x, ./img/portfolio/mobile/seven/img-mobile@x2-900.webp 2x", type="image/webp" media="(min-width: 480px)">
+                            <source srcset="./img/portfolio/desktop/seven/img-desktop-370.webp 1x, ./img/portfolio/desktop/seven/img-desktop@x2-740.webp 2x" type="image/webp" media="(min-width: 1200px)">
+                            <source srcset="./img/portfolio/laptop/seven/img-laptop-354.webp 1x, ./img/portfolio/laptop/seven/img-laptop@x2-708.webp 2x" type="image/webp" media="(min-width: 768px)">
+                            <source srcset="./img/portfolio/mobile/seven/img-mobile-450.webp 1x, ./img/portfolio/mobile/seven/img-mobile@x2-900.webp 2x" type="image/webp" media="(min-width: 480px)">
                            
-                                <img src="./img/portfolio/mobile/seven/img-mobile-1.jpg 1x, ./img/portfolio/mobile/seven/img-mobile@x2-1.jpg 2x,
-                            ./img/portfolio/laptop/seven/img-laptop-1.jpg 1x, ./img/portfolio/laptop/seven/img-laptop@x2-1.jpg 2x,
-                            ./img/portfolio/desktop/seven/img-desktop-1.jpg 1x, ./img/portfolio/desktop/seven/img-desktop@x2-1.jpg 2x" media="(min-width: 480px), (min-width: 768px), (min-width: 1200px)" alt="" width="450" height="294">
+                                <img srcset="./img/portfolio/mobile/seven/img-mobile-1.jpg 450w, ./img/portfolio/mobile/seven/img-mobile@x2-1.jpg 900w,
+                            ./img/portfolio/laptop/seven/img-laptop-1.jpg 354w, ./img/portfolio/laptop/seven/img-laptop@x2-1.jpg 708w,
+                            ./img/portfolio/desktop/seven/img-desktop-1.jpg 370w, ./img/portfolio/desktop/seven/img-desktop@x2-1.jpg 740w" 
+                            src="./img/portfolio/mobile/seven/img-mobile-1.jpg"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" alt="" width="450" height="294">
                           </picture>
                         <div class="project-hover transition">
                             <p class="project__text-hover">
@@ -291,13 +305,15 @@
                 <a href="#">
                     <div class="project-block">
                         <picture>
-                            <source srcset="./img/portfolio/desktop/eight/img-desktop-370.webp 1x, ./img/portfolio/desktop/eight/img-desktop@x2-740.webp 2x", type="image/webp" media="(min-width: 1200px)">
-                            <source srcset="./img/portfolio/laptop/eight/img-laptop-354.webp 1x, ./img/portfolio/laptop/eight/img-laptop@x2-708.webp 2x", type="image/webp" media="(min-width: 768px)">
-                            <source srcset="./img/portfolio/mobile/eight/img-mobile-450.webp 1x, ./img/portfolio/mobile/eight/img-mobile@x2-900.webp 2x", type="image/webp" media="(min-width: 480px)">
+                            <source srcset="./img/portfolio/desktop/eight/img-desktop-370.webp 1x, ./img/portfolio/desktop/eight/img-desktop@x2-740.webp 2x" type="image/webp" media="(min-width: 1200px)">
+                            <source srcset="./img/portfolio/laptop/eight/img-laptop-354.webp 1x, ./img/portfolio/laptop/eight/img-laptop@x2-708.webp 2x" type="image/webp" media="(min-width: 768px)">
+                            <source srcset="./img/portfolio/mobile/eight/img-mobile-450.webp 1x, ./img/portfolio/mobile/eight/img-mobile@x2-900.webp 2x" type="image/webp" media="(min-width: 480px)">
                            
-                                <img src="./img/portfolio/mobile/eight/img-mobile-1.jpg 1x, ./img/portfolio/mobile/eight/img-mobile@x2-1.jpg 2x,
-                            ./img/portfolio/laptop/eight/img-laptop-1.jpg 1x, ./img/portfolio/laptop/eight/img-laptop@x2-1.jpg 2x,
-                            ./img/portfolio/desktop/eight/img-desktop-1.jpg 1x, ./img/portfolio/desktop/eight/img-desktop@x2-1.jpg 2x" media="(min-width: 480px), (min-width: 768px), (min-width: 1200px)" alt="" width="450" height="294">
+                                <img srcset="./img/portfolio/mobile/eight/img-mobile-1.jpg 450w, ./img/portfolio/mobile/eight/img-mobile@x2-1.jpg 900w,
+                            ./img/portfolio/laptop/eight/img-laptop-1.jpg 354w, ./img/portfolio/laptop/eight/img-laptop@x2-1.jpg 708w,
+                            ./img/portfolio/desktop/eight/img-desktop-1.jpg 370w, ./img/portfolio/desktop/eight/img-desktop@x2-1.jpg 740w"
+                            src="./img/portfolio/mobile/eight/img-mobile-1.jpg"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" alt="" width="450" height="294">
                           </picture>
                         <div class="project-hover transition">
                             <p class="project__text-hover">
@@ -320,13 +336,15 @@
                 <a href="#">
                     <div class="project-block">
                         <picture>
-                            <source srcset="./img/portfolio/desktop/nine/img-desktop-370.webp 1x, ./img/portfolio/desktop/nine/img-desktop@x2-740.webp 2x", type="image/webp" media="(min-width: 1200px)">
-                            <source srcset="./img/portfolio/laptop/nine/img-laptop-354.webp 1x, ./img/portfolio/laptop/nine/img-laptop@x2-708.webp 2x", type="image/webp" media="(min-width: 768px)">
-                            <source srcset="./img/portfolio/mobile/nine/img-mobile-450.webp 1x, ./img/portfolio/mobile/nine/img-mobile@x2-900.webp 2x", type="image/webp" media="(min-width: 480px)">
+                            <source srcset="./img/portfolio/desktop/nine/img-desktop-370.webp 1x, ./img/portfolio/desktop/nine/img-desktop@x2-740.webp 2x" type="image/webp" media="(min-width: 1200px)">
+                            <source srcset="./img/portfolio/laptop/nine/img-laptop-354.webp 1x, ./img/portfolio/laptop/nine/img-laptop@x2-708.webp 2x" type="image/webp" media="(min-width: 768px)">
+                            <source srcset="./img/portfolio/mobile/nine/img-mobile-450.webp 1x, ./img/portfolio/mobile/nine/img-mobile@x2-900.webp 2x" type="image/webp" media="(min-width: 480px)">
                            
-                                <img src="./img/portfolio/mobile/nine/img-mobile-1.jpg 1x, ./img/portfolio/mobile/nine/img-mobile@x2-1.jpg 2x,
-                            ./img/portfolio/laptop/nine/img-laptop-1.jpg 1x, ./img/portfolio/laptop/nine/img-laptop@x2-1.jpg 2x,
-                            ./img/portfolio/desktop/nine/img-desktop-1.jpg 1x, ./img/portfolio/desktop/nine/img-desktop@x2-1.jpg 2x" media="(min-width: 480px), (min-width: 768px), (min-width: 1200px)" alt="" width="450" height="294">
+                                <img srcset="./img/portfolio/mobile/nine/img-mobile-1.jpg 450w, ./img/portfolio/mobile/nine/img-mobile@x2-1.jpg 900w,
+                            ./img/portfolio/laptop/nine/img-laptop-1.jpg 354w, ./img/portfolio/laptop/nine/img-laptop@x2-1.jpg 708w,
+                            ./img/portfolio/desktop/nine/img-desktop-1.jpg 370w, ./img/portfolio/desktop/nine/img-desktop@x2-1.jpg 740w" 
+                            src="./img/portfolio/mobile/nine/img-mobile-1.jpg"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 450px" alt="" width="450" height="294">
                           </picture>
                         <div class="project-hover transition">
                             <p class="project__text-hover">
@@ -401,7 +419,7 @@
                 </li>
                 <li class="basement-list-item">
                     <p class="e-mail__text">Подпишитесь на рассылку</p>
-                    <form action="" class="e-mail-list">
+                    <form action="#" class="e-mail-list">
                         <input type="email" name="email" required placeholder="E-mail"
                             class="e-mail-list-input">
                         <button type="submit" class="e-mail-list-btn btn transition">Подписаться
@@ -414,6 +432,7 @@
             </ul>
         </div>
     </footer>
+    <script src="./js/burger.js"></script>
 </body>
-<script src="./js/burger.js"></script>
+
 </html>

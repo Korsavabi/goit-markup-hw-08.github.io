@@ -144,7 +144,7 @@ body {
 }
 
 .header__logo {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -181,7 +181,7 @@ body {
   display: none;
   position: absolute;
   top: 50px;
-  right: -30px;
+  right: -16px;
   z-index: 6;
   background-color: #ffffff;
   width: 500px;
@@ -312,7 +312,7 @@ body {
     padding-bottom: 32px;
     color: #212121;
   }
-  .navigation-list-item-link:hover, .navigation-list-item-link::focus {
+  .navigation-list-item-link:hover, .navigation-list-item-link:focus {
     color: #1093ff;
     height: 4px;
     border-radius: 2px;
@@ -450,7 +450,7 @@ body {
 
 .feature-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -571,7 +571,7 @@ body {
   .engage-list-item:last-child {
     margin-right: 0;
   }
-  .engage-list-itemimg {
+  .engage-list-item img {
     display: block;
     width: 100%;
     height: auto;
@@ -583,7 +583,7 @@ body {
     text-transform: uppercase;
     position: absolute;
     text-align: center;
-    bottom: 3px;
+    bottom: 0;
     width: 100%;
     padding: 27px 0;
     color: #ffffff;
@@ -604,7 +604,7 @@ body {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .team-list-item {
@@ -833,7 +833,7 @@ body {
 }
 
 .footer__logo {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -955,7 +955,7 @@ body {
 @media screen and (min-width: 768px) {
   .basement-list {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: baseline;
   }
   .basement-list-item:first-child {
@@ -1067,14 +1067,6 @@ body {
 }
 
 /* ========================================================== form кнопки====================================*/
-/* ========================================================== burger ====================================*/
-.btn-openMenu {
-  display: none;
-  border: 0;
-  background-color: transparent;
-}
-
-/* ========================================================== burger ====================================*/
 /* ========================================================== footer кнопки====================================*/
 .e-mail-list-btn {
   display: flex;
@@ -1090,11 +1082,11 @@ body {
   background-color: #188ce8;
 }
 
-/* ========================================================== mobile====================================*/
-.btn-openMenu {
+/* ========================================================== burger mobile====================================*/
+.btn-open-menu {
   display: block;
   border: 0;
-  background-color: transparent;
+  background: transparent;
 }
 
 /* ========================================================== footer кнопки====================================*/

@@ -20,7 +20,7 @@
         &:last-child{
         margin-right: 0;
     }
-    &img{
+    & img{
         display: block;
         width: 100%;
         height: auto;
@@ -34,7 +34,7 @@
     
         position: absolute;
         text-align: center;
-        bottom: 3px;
+        bottom: 0;
     
         width: 100%;
         padding: 27px 0;
