@@ -101,7 +101,7 @@ color: $accent-color;
     border-radius: 4px;
     background: none;
 
-    width: 450px;
+    width: 100%;
     margin-bottom: 20px;
     padding: 15px 16px;
 
@@ -143,6 +143,10 @@ color: $accent-color;
     font-size: 24px;
     line-height: 1.167;
     }
+    .e-mail-list-input{
+        width: 450px;
+    }
+   
 }
 @media screen and (min-width: 1200px){
     .basement-list {
