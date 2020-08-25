@@ -536,7 +536,7 @@ body {
   position: absolute;
   z-index: 1;
   width: 100%;
-  height: auto;
+  height: 100%;
   top: 0;
   left: 0;
   background: rgba(32, 148, 243, 0.902);
