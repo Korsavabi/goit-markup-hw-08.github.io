@@ -184,7 +184,9 @@ body {
   right: -16px;
   z-index: 6;
   background-color: #ffffff;
-  width: 500px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
   border-top: 1px solid #ececec;
 }
 
@@ -196,7 +198,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
 }
 
 .navigation-media-list-item {
@@ -269,6 +270,12 @@ body {
 
 .openMenu-svg-close:hover {
   fill: #1093ff;
+}
+
+@media screen and (min-width: 400px) {
+  .navigation-media {
+    width: 500px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -779,7 +786,6 @@ body {
 
 .e-mail-list {
   flex-wrap: wrap;
-  width: 450px;
 }
 
 .e-mail-list-input {
@@ -814,6 +820,12 @@ body {
 }
 
 /*======================================== Подвал ========================================*/
+@media screen and (min-width: 480px) {
+  .e-mail-list-input {
+    width: 450px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .basement-list {
     flex-direction: row;

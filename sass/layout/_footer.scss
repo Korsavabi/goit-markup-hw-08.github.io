@@ -93,7 +93,6 @@ color: $accent-color;
 }
 .e-mail-list{
    flex-wrap: wrap;
-   width: 450px;
 }
 .e-mail-list-input{
     border: 1px solid $light-gray-border-color;
@@ -128,6 +127,11 @@ color: $accent-color;
     fill: $white-color;
 }
 /*======================================== Подвал ========================================*/
+@media screen and (min-width: 480px){
+    .e-mail-list-input{
+       width: 450px;
+    }
+}
 @media screen and (min-width: 768px){
     .basement-list {
         flex-direction: row;
@@ -144,9 +148,7 @@ color: $accent-color;
     font-size: 24px;
     line-height: 1.167;
     }
-    .e-mail-list-input{
-       
-    }
+    
    
 }
 @media screen and (min-width: 1200px){
