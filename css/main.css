@@ -530,11 +530,14 @@ body {
 /*=========================================== Особенности =========================================*/
 @media screen and (min-width: 768px) {
   .feature-list-item {
-    margin-right: 0;
+    margin-right: 30px;
     width: calc((100% - 30px *1)/2);
   }
   .feature-list-item:nth-last-child(-n + 2) {
     margin-bottom: 0;
+  }
+  .feature-list-item:nth-child(2), .feature-list-item:nth-child(4) {
+    margin-right: 0;
   }
   .feature-list-item-title {
     text-align: start;
